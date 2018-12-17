@@ -20,22 +20,28 @@ class postProcessor:
 		timeDependent = False
 		channelNumber = 1
 
-		print('Ayak')
+		print('inputs')
 
-	def readData():
+	def readChannelData():
 		"""
 		Reads data from specified file
 		"""
-		print('Ayak')
+		print('channelData')
+
+	def readMajorData():
+		"""
+		Reads data from specified file
+		"""
+		print('majorData')
 
 	def plot():
 		"""
 		Plotting function
 		"""
-		print('Ayak')
+		print('plotting')
 
 	def writeToFile():
-		print('Ayak')
+		print('writingToFile')
 
 	def __init__():
 		"""
