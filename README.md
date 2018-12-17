@@ -1,2 +1,4 @@
-# ctfPostprocessor
-Comprehensive post-processor for CTF
+# CTF Postprocessor
+
+Comprehensive post-processor for CTF extracting data and plotting.
+
