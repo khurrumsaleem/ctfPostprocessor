@@ -4,9 +4,7 @@ notifications:
   email: false
 
 python:
-  - "2.6"
   - "2.7"
-  - "3.3"
   - "3.4"
   - "3.5"
   - "3.5-dev"  # 3.5 development branch
@@ -16,16 +14,11 @@ python:
 
 # command to install dependencies
 install:
-#  - pip install codecov
-  - pip install setuptools matplotlib
+  - pip install setuptools matplotlib codecov
 
 # command to run tests
 script:
   - python ctfPostProcessor.py
-#  - coverage run tests.py
+  - coverage run ctfPostProcessor.py
 after_success:
-#  - codecov
-
-
-
-
+  - codecov
