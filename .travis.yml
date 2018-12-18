@@ -1,5 +1,8 @@
 language: python
 
+notifications:
+  email: false
+
 python:
   - "2.6"
   - "2.7"
@@ -14,7 +17,7 @@ python:
 # command to install dependencies
 install:
 #  - pip install codecov
-  - pip install --upgrade setuptools matplotlib
+  - pip install setuptools matplotlib
 
 # command to run tests
 script:
