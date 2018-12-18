@@ -1,4 +1,5 @@
 # CTF Postprocessor
+[![Build Status](https://travis-ci.com/alptezbasaran/ctfPostprocessor.svg?branch=master)](https://travis-ci.com/alptezbasaran/ctfPostprocessor) 
 
 Comprehensive post-processor for CTF extracting data and plotting.
 
