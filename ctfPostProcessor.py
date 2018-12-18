@@ -10,6 +10,8 @@ import sys
 import matplotlib.pyplot as py
 
 # Unit conversion factors
+# These following conversion factors have been implemented in CTF Code previously.
+# There is no need to add them again
 t_in_m=0.0254
 t_BTU_kJ=1.05506
 t_MJ_kJ=1000.0
