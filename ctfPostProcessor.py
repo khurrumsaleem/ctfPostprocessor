@@ -29,7 +29,7 @@ class channelData:
     '''
     self.channelsOutputFile = channelsOutputFileName
     print('ayakChannels')
-    print(self.channelsOutputFile)
+#    print(self.channelsOutputFile)
 
 class majorData:
   '''
@@ -42,7 +42,7 @@ class majorData:
     '''
     self.majorOutputFile = majorOutputFileName
     print('ayakMajor')
-    print(self.majorOutputFile)
+#    print(self.majorOutputFile)
     
 
     self.lines = open(majorOutputFileName).readlines()
