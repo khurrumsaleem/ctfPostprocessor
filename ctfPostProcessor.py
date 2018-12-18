@@ -4,6 +4,7 @@ Created on Dec 13, 2018
 @author: alptezbasaran
 '''
 
+from __future__ import print_function
 import math
 import os
 import sys
